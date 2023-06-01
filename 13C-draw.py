@@ -21,6 +21,9 @@ def blank():
 
 t.shape("turtle")
 t.speed(0)
+t.pensize(2)
+t.hideturtle()
+t.onscreenclick(t.goto)
 t.onkeypress(turn_right,"d")
 t.onkeypress(turn_up,"w")
 t.onkeypress(turn_down,"s")

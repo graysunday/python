@@ -1,6 +1,7 @@
-def hello():
-    print("Hello Python!")
+def hello2(name):
+    print("Hello", name)
 
-hello()
-hello()
-hello()
+hello2("Justin")
+hello2("John")
+hello2("Mike")
+
